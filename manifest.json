@@ -1,7 +1,7 @@
 {
     "name": "Incubator",
     "short_name": "Incubator",
-    "start_url": "/index.html",
+    "start_url": ".",
     "background_color": "#ede9ff",
     "theme_color": "#009578",
     "display": "standalone",
