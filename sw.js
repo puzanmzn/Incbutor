@@ -1,3 +1,13 @@
 self.addEventListener("install", e=>{
-    console.log("install");
+    e.waitUntil(
+        caches.open('static').then(cache => {
+            return cache.addAll(["./", "./src/style.css", "./image/logo190.img"]);
+        })
+    )
 })
+
+self.addEventListener("fetch", e => {
+    caches.match(e.request).then(response =>{
+        reutrn response || fetch(e.request);
+    })
+});
