@@ -1,0 +1,21 @@
+{
+    "name": "Incubator",
+    "short_name": "Incubator",
+    "start_url": "/index.html",
+    "background_color": "#ede9ff",
+    "theme_color": "#009578",
+    "display": "standalone",
+    "prefer_related_applications": true,
+    "icons": [
+        {
+            "src": "image/logo190.png",
+            "sizes": "190x190",
+            "type": "image/png"
+        },
+        {
+            "src": "image/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
