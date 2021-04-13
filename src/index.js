@@ -1,3 +1,4 @@
+console.log('Prayag');
 if ('serverWorker' in navigator) {
     navigator.serviceWorker.register('sw.js')
     .then(registration => {
